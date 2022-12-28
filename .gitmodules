@@ -1,0 +1,6 @@
+[submodule "themes/contrast-hugo"]
+	path = themes/contrast-hugo
+	url = https://github.com/niklasbuschmann/contrast-hugo
+[submodule "public"]
+	path = public
+	url = https://github.com/leg1on4rio/leg1on4rio.github.io
