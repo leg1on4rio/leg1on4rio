@@ -1,6 +1,6 @@
 baseURL = 'https://leg1on4rio.github.io/'
 languageCode = 'pt-br'
-title = 'meu blog leg1on4rio'
-theme = "contrast-hugo"
+title = 'blog leg1on4rio'
+theme = "terminal"
 [permalinks]
     posts = "/:filename/"
