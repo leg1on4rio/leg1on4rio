@@ -1,9 +1,6 @@
 [submodule "public"]
 	path = public
 	url = https://github.com/leg1on4rio/leg1on4rio.github.io
-[submodule "hugo-theme-onelou"]
-	path = hugo-theme-onelou
-	url = https://github.com/jyygithub/hugo-theme-onelou
 [submodule "themes/hugo-theme-nix"]
 	path = themes/hugo-theme-nix
 	url = https://github.com/LordMathis/hugo-theme-nix

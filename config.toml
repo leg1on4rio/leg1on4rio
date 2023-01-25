@@ -1,6 +1,13 @@
 baseURL = 'https://leg1on4rio.github.io/'
 languageCode = 'pt-br'
 title = 'o leg1on4rio'
-theme = "hugo-theme-onelou"
+theme = "hugo-theme-nix"
 [permalinks]
     posts = "/:filename/"
+
+[params]
+  Name = "leg1on4rio"
+  HeaderUsername = "username"
+  HeaderHostname = "hostname"
+  About = "legionário e pai da eva s2"
+  ProfilePicture = "profile_picture_url"
