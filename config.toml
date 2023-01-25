@@ -7,7 +7,7 @@ theme = "hugo-theme-nix"
 
 [params]
   Name = "leg1on4rio"
-  HeaderUsername = "leg1on4rio"
+  HeaderUsername = "blog"
   HeaderHostname = "leg1on4rio"
   About = "legionário e pai da eva s2"
   ProfilePicture = "tn.png"
