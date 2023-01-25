@@ -10,7 +10,7 @@ theme = "hugo-theme-nix"
   HeaderUsername = "blog"
   HeaderHostname = "leg1on4rio"
   About = "legionário e pai da eva s2"
-  ProfilePicture = "tn.png"
+  ProfilePicture = "https://i.ibb.co/6yr3jyc/download.jpg"
   Email = "rflredblue@gmail.com"
   InstagramID = "leg1on4rio"
   LinkedInID = "rflredblue"
@@ -42,7 +42,7 @@ theme = "hugo-theme-nix"
     failureLevel = 'fatal'
     noHeaderOrFooter = true
     preserveTOC = false
-    safeMode = 'true'
+    safeMode = 'unsafe'
     sectionNumbers = false
     trace = false
     verbose = false
@@ -67,7 +67,7 @@ theme = "hugo-theme-nix"
         title = true
     [markup.goldmark.renderer]
       hardWraps = false
-      unsafe = false
+      unsafe = true
       xhtml = false
   [markup.highlight]
     anchorLineNos = false
