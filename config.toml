@@ -1,13 +1,35 @@
 baseURL = 'https://leg1on4rio.github.io/'
 languageCode = 'pt-br'
-title = 'o leg1on4rio'
+#title = 'o leg1on4rio'
 theme = "hugo-theme-nix"
 [permalinks]
     posts = "/:filename/"
 
 [params]
   Name = "leg1on4rio"
-  HeaderUsername = "username"
-  HeaderHostname = "hostname"
+  HeaderUsername = "leg1on4rio"
+  HeaderHostname = "leg1on4rio"
   About = "legionário e pai da eva s2"
-  ProfilePicture = "profile_picture_url"
+  ProfilePicture = "tn.png"
+  Email = "rflredblue@gmail.com"
+  InstagramID = "leg1on4rio"
+  LinkedInID = "rflredblue"
+  TwitterID = "leg1on4rio"
+
+[menu]
+  [[menu.header]]
+    identifier = "post"
+    name = "posts"
+    weight = 0
+  [[menu.header]]
+    parent = "post"
+    name = "All Posts"
+    url = "/posts"
+  [[menu.header]]
+    parent = "post"
+    name = "categories"
+    url = "/categories"
+  [[menu.header]]
+    parent = "post"
+    name = "tags"
+    url = "/tags"
